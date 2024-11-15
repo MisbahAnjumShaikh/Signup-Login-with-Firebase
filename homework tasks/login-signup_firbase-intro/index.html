@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup/Login Firebase Intro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form>
+        <h2>Sign Up</h2>
+        <label for="username"> Username
+            <input type="text" name="username" id="username">
+        </label><br><br>
+        <!-- <label for="firstName"> First Name
+            <input type="text" name="firstName" id="firstName">
+        </label><br><br>
+        <label for="lastName"> Last Name
+            <input type="text" name="lastName" id="lastName">
+        </label><br><br> -->
+        <label for="email"> Email
+            <input type="email" name="email" id="email">
+        </label><br><br>
+        <label for="phNum"> phone Number
+            <input type="tel" name="phNum" id="phNum">
+        </label><br><br>
+        <!-- <label> Gender</label>
+        <label for="male">
+            <input type="radio" name="gender" id="male"> Male
+        </label>
+        <label for="female">
+            <input type="radio" name="gender" id="female"> Female
+        </label> <br><br> -->
+        <label for="password"> Password
+            <input type="password" name="password" id="password">
+        </label><br><br>
+        <label for="confirmPass"> Confirm Password
+            <input type="password" name="password" id="confirmPass">
+        </label><br><br>
+        <button type="submit" id="signUpBtn">Sign Up</button><br><br>
+    </form>
+    <p>Already have an account?</p>
+    <button type="submit" class="redirectBtn"><a href="login.html">Login</a></button><br><br>
+    <button type="submit" id="googleSignInBtn">Continue with Google</button>
+
+
+    <script type="module" src="firebase.js"></script>
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>

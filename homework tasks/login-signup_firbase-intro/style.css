@@ -1,0 +1,8 @@
+
+.redirectBtn a{
+    text-decoration: none;
+}
+
+#logOut_signOut a{
+    color: tomato;
+}
